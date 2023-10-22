@@ -1,0 +1,70 @@
+/*This creates a basic outline for my document*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #352da8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #57970e;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+/*This makes my reviews stand out better*/
+.reviews {
+    background-color: #a677d3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    margin: 20px 0;
+}
+
+.review h3 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/*This makes my image centered*/
+img {
+    display: block;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+/*This makes my footer neat*/
+footer {
+    text-align: center;
+    background-color: #57970e;
+    color: #ffffff;
+    padding: 10px;
+}
